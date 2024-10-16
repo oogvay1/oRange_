@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+:root {
+    --Orange: #ff5100;
+    --Grey: #474545;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu_ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.menu_img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.4;
+}
+
+.section1 {
+    width: 100%;
+    margin: 3rem auto;
+}
+
+.forFlexBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    text-align: center;
+}
+
+.box h3 {
+    width: 70px;
+    color: #ff5100;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--Orange);
+}
+
+.icon1 {
+    margin-top: 0.5rem;
+    margin-left: .5rem;
+}
+
+.btn {
+    width: 170px;
+    border: 1px solid#ff5100;
+    background-color: #ff5100;
+    color: #fff;
+    margin-left: .7rem;
+    margin-top: 2rem;
+    height: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: 2px solid #ff5100;
+    color: #ff5100;
+    background-color: #fff;
+}
+
+.box2 {
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    text-align: center;
+}
+
+.box2 h3 {
+    width: 70px;
+    color: #ff5100;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid #ff5100;
+}
+
+.icon1 {
+    margin-top: 0.5rem;
+    margin-left: .5rem;
+}
+
+.box3 {
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    text-align: center;
+}
+
+.box3 h3 {
+    width: 70px;
+    color: #ff5100;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid #ff5100;
+}
+
+.icon1 {
+    margin-top: 0.5rem;
+    margin-left: .5rem;
+}
+
+.box4 {
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 250px;
+    text-align: center;
+}
+
+.box4 h3 {
+    width: 70px;
+    color: #ff5100;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid #ff5100;
+}
+
+.icon1 {
+    margin-top: 0.5rem;
+    margin-left: .5rem;
+}
+
+/* end of the section style */
+
+.section2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flexInfo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.info {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.info h3 {
+    width: 300px;
+    margin-bottom: 1.5rem;
+    color: var(--Grey);
+}
+
+.info p {
+    width: 370px;
+    margin-bottom: 1.5rem;
+    color: #6c6b6b;
+    font-size: 13px;
+}
+
+.btn2 {
+    width: 170px;
+    border: 1px solid#ff5100;
+    background-color: #ff5100;
+    color: #fff;
+    margin-top: 2rem;
+    height: 30px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    border: 2px solid #ff5100;
+    color: #ff5100;
+    background-color: #fff;
+}
+
+.info2 {
+    margin: 0 auto;
+}
+
+.info2 h4 {
+    color: var(--Grey);
+    font-size: 22px;
+}
+
+.info2 ul {
+    display: flex;
+    padding: 7px;
+}
+
+.info2 ul li a {
+    width: 100px;
+}
+
+.a_href{
+    color: #474545;
+
+}
+
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff5100;
+    color: #fff;
+}
+
+.footer_flex{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+
+.footerbox h2 {
+    padding: 10px;
+    
+}
+
+.footerbox h3 {
+    padding: 10px;
+    font-size: 50px;
+}
+
+.footerbox p {
+    padding: 10px;
+    padding-bottom: -10px;
+}
+
+/* **** */
+.footerbox2{
+    margin-right: 20px;
+}
+
+.footerbox2 h2 {
+    padding: 10px;
+    
+}
+
+.footerbox2 h3 {
+    padding: 10px;
+    
+}
+
+.footerbox2 p {
+    padding: 10px;
+    padding-bottom: -10px;
+}
